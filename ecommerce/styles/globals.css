@@ -32,6 +32,7 @@ width: 100%;
   margin: 6px 18px;
   position: relative;
 }
+
 .marquee-text{
   font-size: 29px;
   font-weight: 600;
@@ -525,7 +526,7 @@ padding: 30px 65px;
 }
 .quantity-desc{
   border: 1px solid gray;
-padding: 6px;
+  padding: 6px;
 }
 .quantity-desc span{
   font-size: 16px;
