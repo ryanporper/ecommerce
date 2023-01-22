@@ -11,14 +11,12 @@ const Navbar = () => {
   return (
     <div className="navbar-container">
       <h2 className="logo">
-        <Link href="/">Cool Site</Link>
+        <Link href="/">E's Electronics</Link>
       </h2>
       <h3 className="navbar-cats">
-        <Link href="/products">All Products | </Link>
-        <Link href="/bestsellers">Best Sellers | </Link>
-        <Link href="/contact">Contact </Link>
+        <Link href="/products">All Products</Link>
+        <Link href="/bestsellers">Best Sellers</Link>
       </h3>
-
       <button type="button" className="cart-icon" onClick={() => setShowCart(true)}>
         <AiOutlineShopping />
         <span className="cart-item-qty">{totalQuantities}</span>

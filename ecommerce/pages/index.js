@@ -1,7 +1,7 @@
 import React from 'react';
 
 import { client } from '../lib/client';
-import { Product, Feature, FooterBanner, HeroBanner } from '../components';
+import { Product, Feature, HeroBanner } from '../components';
 
 const Home = ({ products, features, bannerData }) => (
   <div>
@@ -15,7 +15,6 @@ const Home = ({ products, features, bannerData }) => (
     <div className="products-container">
       {features?.map((feature) => <Feature key={feature._id} feature={feature} />)}
     </div>
-    <FooterBanner footerBanner={bannerData && bannerData[0]} />
   </div>
 );
 
