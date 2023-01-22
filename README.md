@@ -20,5 +20,5 @@ A fully responsive modern ecommerce website with full cart functionality and che
 # Checkout Page
 ![Checkout Page](https://i.imgur.com/ju0DWw9.png)
 
-# Sucess Page
-![Sucess Page](https://i.imgur.com/ZG9EMah.png)
+# Success Page
+![Success Page](https://i.imgur.com/ZG9EMah.png)
